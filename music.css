@@ -1,0 +1,93 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(#cf23fa,#d899e8,#e7c5f0);
+    
+}
+.container{
+    border: 2px solid black;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 370px;
+    margin:100px auto;
+    border-radius: 11px;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+img{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%; 
+   box-shadow: 0 0 10px 5px whitesmoke ,0 0 10px 5px black ;
+}
+
+.img_container{
+    display: block;
+    margin: 16px auto;
+    /* border: 2px solid black; */
+}
+
+h1{
+    font-size: 3em;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px black,
+	         -5px -5px 10px #D0D3D4;
+}
+button:hover{
+    background-color: rgba(255, 0, 0, 0.904);
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.buttons{
+    /* border: 2px solid black; */
+    margin: 16px 5px ;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.play:active {
+ color: black;
+  background-color: whitesmoke;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.pause:active {
+ color: black;
+  background-color: whitesmoke;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.up:active {
+ color: black;
+  background-color: whitesmoke;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.down:active {
+ color: black;
+  background-color: whitesmoke;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

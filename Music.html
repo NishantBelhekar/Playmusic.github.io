@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body> 
+    <div class="container">
+        <h1>OMG Flute</h1>
+        <p>Played by: PARASH NATH</p>
+        <div class="img_container">
+            <img src="omg.jpg">
+        </div>
+        <div class="audio_control">
+            <audio id = "player" src="NICE FLUTE.mp3" type="audio/mpeg"></audio>
+            <div class="buttons">
+                <button class="play" onclick="document.getElementById('player').play()"><i class="fa fa-play" style = "font-size:20px"></i></button>
+                <button class="pause" onclick="document.getElementById('player').pause()"><i class="fa fa-pause" style = "font-size:20px"></i></button>
+                <button  class="up" onclick="document.getElementById('player').volume+=0.1"><i class="fa fa-plus" style = "font-size:20px"></i>Volume</button>
+                <button class="down" onclick="document.getElementById('player').volume-=0.1"><i class="fa fa-minus" style = "font-size:20px" ></i>Volume</button>
+        </div>
+    </div>
+</body>
+</html>
